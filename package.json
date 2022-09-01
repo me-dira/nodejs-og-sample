@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-og-sample-main",
+  "version": "1.0.0",
+  "description": "Generate dynamic Open Graph image for social media like facebook, whatsapp, twitter and ...",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
